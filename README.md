@@ -4,7 +4,7 @@
 This project is a FastAPI-based API that accepts PDF/DOCX uploads, analyzes them against English writing guidelines using LanguageTool and OpenAI GPT, and can produce corrected `.docx` and `.pdf` outputs.
 
 ## Status
-![CI](https://github.com/your-username/compliance_checker/workflows/CI/badge.svg)
+![CI](https://github.com/ar29/compliance_checker/workflows/CI/badge.svg)
 
 **Important:** For security, **do not** put your OpenAI API key directly into the source. Use the environment variable `OPENAI_API_KEY` or a `.env` file (see `.env.example`). This repo intentionally does NOT include any API keys.
 
