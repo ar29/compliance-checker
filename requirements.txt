@@ -10,3 +10,4 @@ openai
 pytest
 httpx
 pytest-mock
+black
