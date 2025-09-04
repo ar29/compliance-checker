@@ -31,9 +31,9 @@ jobs:
           python -m spacy download en_core_web_sm
           pip install flake8
 
-      - name: Lint with flake8
+      - name: Lint with Black
         run: |
-          flake8 app tests --max-line-length=120
+          python -m black .
 
       - name: Run tests
         run: |
