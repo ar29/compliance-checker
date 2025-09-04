@@ -10,8 +10,10 @@ This project is a FastAPI-based API that accepts PDF/DOCX uploads, analyzes them
 
 ## Quickstart (local)
 
-1. Create and activate a Python virtual environment (Python 3.9+ recommended).
+1. Create and activate a Python virtual environment (Python 3.9+ recommended). This project requires Java >= 17 for version latest.
 ```bash
+brew install openjdk@17
+export JAVA_HOME=`/usr/libexec/java_home -v 17`
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
